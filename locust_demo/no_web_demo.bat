@@ -1,0 +1,1 @@
+locust --no-web --host=http://127.0.0.1:5000 -c 1000 -r 100 --run-time 10s
